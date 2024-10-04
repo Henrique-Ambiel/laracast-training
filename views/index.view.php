@@ -1,16 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-        <h1> <?= $business["name"] ?></h1>
-    <ul>
-      <?php foreach ($business['categories'] as $category) : ?>
-        <li><?= $category; ?></li>
-        <?php endforeach; ?>
-    </ul>
-  </body>
-</html>
+<?php require('partials/') ?> //Página de boas vindas ao usuário
+<?php require('partials/') ?>
+<?php require('partials') ?>
+
+<main>
+  <div> class= "mx-auto max-w-7xl py-6 sm:px-6 lg:px-8" 
+    <p> Hello! Welcome to the home page.</p>
+</div>
+</main>  
+
+<?php require('partials/')?>
