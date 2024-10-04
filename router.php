@@ -3,7 +3,7 @@
 $uri = parse_url($_SERVER[REQUEST_URI])['path'];  /*parse_url() analisa uma URL e retorna seus componentes 
 como um array associativo*/
 
-$routes = [
+$routes = [ //Array com todos os chamados de arquivos PHP para cada opção do usuário
     '/' => 'controllers/index.php',
     '/contact' => 'controllers/contact.php',
     '/about' => 'controllers/about.php',
