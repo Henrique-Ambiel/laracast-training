@@ -4,4 +4,6 @@ require 'functions.php'; //Inclui e executa o conteúdo de um arquivo PHP dentro
 
 $heading = 'About Us';
 
+echo $_SERVER['REQUEST_URI'];
+
 require "views/about.view.php";
